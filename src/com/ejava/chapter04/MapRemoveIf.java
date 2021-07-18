@@ -16,9 +16,9 @@ public class MapRemoveIf {
         // remove by value
         map.values().removeIf(value -> !value.contains("1"));
         // remove by key
-        map.keySet().removeIf(key -> key != 1);
+//        map.keySet().removeIf(key -> key != 1);
         // remove by entry / combination of key + value
-        map.entrySet().removeIf(entry -> entry.getKey() != 1);
+//        map.entrySet().removeIf(entry -> entry.getKey() != 1);
 
         System.err.println(map.values());
     }
