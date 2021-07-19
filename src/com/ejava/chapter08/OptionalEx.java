@@ -80,5 +80,6 @@ public class OptionalEx {
 
         opt = Optional.ofNullable(nullName);
         System.out.println("Optional.ofNullable : " + opt.get());
+
     }
 }
